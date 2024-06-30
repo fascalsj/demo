@@ -1,14 +1,20 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "timestamp": "2024-02-23 16:29:11",
+  "code": 200,
+  "app_code": "GISTA-200",
+  "description": "OK",
+  "message": "success",
+  "result": [
+    {
+      "kode_pph": "42D",
+      "tier": "-",
+      "nilai_tagihan": "200000000",
+      "nilai_dpp": "200000000",
+      "rate": "2.65",
+      "pph1": "5300000.0",
+      "pph3": "5300000.0",
+      "tax_base": "100.0"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+  "error_messages": null
+};
